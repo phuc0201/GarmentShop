@@ -1,0 +1,35 @@
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header_wrap
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 1em 8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+.logo_web a img{
+    width: 28em;
+    height: 5em;
+}
+.header_wrap .header_nav{
+    display: flex;
+}
+.header_wrap .header_nav li{
+    list-style: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: auto 1em;
+}
+.header_wrap .header_nav li:last-child{
+    margin-right: 0;
+}
+.header_wrap .header_nav .avtUser{
+    height: 3em;
+    width: 3em;
+}

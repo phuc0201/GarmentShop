@@ -1,0 +1,49 @@
+.section_content{
+    background-image: url(../assets/images/Background-trang-chu-scaled.jpeg);
+    background-size: 100%;
+    margin: auto;                                                                           
+    max-width: 120em;
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+}
+.section_content-layout{
+    background-color: rgba(0,0,0,0.7);
+}
+/* BANNER */
+.section_content .banner-intro{
+    width: 100%;
+}
+.section_content .banner-intro img{
+    width: 100%;
+    margin-bottom: 4em;
+}
+
+/* PRODUCTS */
+.product-container{
+    padding: 0 4em;
+}
+#products .product{    
+    padding: 1rem;
+    cursor: pointer;
+    animation-timing-function: ease;
+    margin-bottom: 2.4em;
+}
+#products .product img{
+    max-width: 100%;
+}
+#products .product .product__description{
+    text-align: center;
+}
+
+#products .product .product__description span{
+    font-size: 1.6em;
+}
+#products .product .product__description h5{
+    font-size: 1em;
+    font-weight: 100;
+}
+
+#products .product:hover{
+    border: 1px solid #f9b90a;
+    border-radius: 1em;
+}
